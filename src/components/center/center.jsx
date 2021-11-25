@@ -6,7 +6,7 @@ function center() {
   return (
     <div id="about-me" className="about-me_container">
       <div>
-        <img src={Photo} alt="Photo of the person's portfolio" />
+      <img src={Photo} alt="Icon of the person's portfolio" />
       </div>
       <div className="about_info">
         <h1>ABOUT ME</h1>

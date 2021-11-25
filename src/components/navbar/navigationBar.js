@@ -17,7 +17,12 @@ function createLink() {
 function navigationBar() {
   return (
     <div>
-      <Navbar className="nav_container" expand="md" style={{ zIndex: "2" }}>
+      <Navbar
+        className="nav_container"
+        expand="md"
+        style={{ zIndex: "2", position: "fixed", top: "0", width: "100%" }}
+        collapseOnSelect
+      >
         <Navbar.Brand style={{ marginLeft: "1rem" }} href="#home">
           Dmytro Boiko
         </Navbar.Brand>

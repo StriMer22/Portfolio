@@ -3,6 +3,7 @@ import Navigation from "./components/navbar/navigationBar";
 /*npm react-particle-animation. Background*/
 import ParticleAnimation from "react-particle-animation";
 import Header from "./components/header/header";
+import Center from "./components/center/center";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         particleRadius={1.25}
         particleSpeed={0.2}
       />
+      <Center />
     </div>
   );
 }

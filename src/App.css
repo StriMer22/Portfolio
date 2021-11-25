@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.App {
+  font-family: "Roboto", sans-serif;
+}
+
 :root {
   --nav-color: rgb(34, 38, 42);
   --nav-hover-color: hsl(210, 11%, 45%);

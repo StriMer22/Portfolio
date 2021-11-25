@@ -1,19 +1,25 @@
 import React from "react";
 import Typed from "react-typed";
+import "./header.css";
 
 function header() {
   return (
-    <div>
+    <div className="header-info">
       <h1>What am I ?</h1>
       <Typed
-        strings={["Dungeon Master", "or....", " ", "ANIKI"]}
+        strings={[
+          " ",
+          "Computer science student",
+          "Also known as an",
+          "Глек",
+          "Or!",
+          '"a coder"',
+          " ",
+        ]}
         typeSpeed={40}
         backSpeed={50}
-        attr="placeholder"
         loop
-      >
-        <input type="text" />
-      </Typed>
+      />
     </div>
   );
 }

@@ -4,6 +4,7 @@ import Navigation from "./components/navbar/navigationBar";
 import ParticleAnimation from "react-particle-animation";
 import Header from "./components/header/header";
 import Center from "./components/center/center";
+import Tech from "./components/tech/tech";
 
 function App() {
   return (
@@ -11,12 +12,13 @@ function App() {
       <Navigation />
       <Header />
       <ParticleAnimation
-        style={{ height: "96vh" }}
+        style={{ height: "100vh" }}
         background={{ r: 21, g: 22, b: 23, a: 1 }}
         particleRadius={1.25}
         particleSpeed={0.2}
       />
       <Center />
+      <Tech />
     </div>
   );
 }

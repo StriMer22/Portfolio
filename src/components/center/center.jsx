@@ -1,6 +1,6 @@
 import React from 'react';
 import './center.css';
-import Photo from '../../assets/About-me.jpg';
+import Photo from '../../assets/About-me.png';
 
 function center() {
   return (

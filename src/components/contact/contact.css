@@ -1,0 +1,26 @@
+.contact_container {
+  background-color: var(--nav-color);
+  color: aliceblue;
+  padding: 1rem;
+}
+
+.contact_links_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact_links_container a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact_links_container a:hover {
+  color: var(--light-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .contact_links_container {
+    flex-direction: column;
+  }
+}

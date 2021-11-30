@@ -4,18 +4,10 @@ import "./header.css";
 
 function header() {
   return (
-    <div className="header-info">
-      <h1>What am I ?</h1>
+    <div className="header-info" id="home">
+      <h1>Who am I ?</h1>
       <Typed
-        strings={[
-          " ",
-          "Computer science student",
-          "Also known as an",
-          "Глек",
-          "Or!",
-          '"a coder"',
-          " ",
-        ]}
+        strings={[" ", "Computer science student", "or...", '"a coder"', " "]}
         typeSpeed={40}
         backSpeed={50}
         loop

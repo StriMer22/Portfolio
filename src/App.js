@@ -5,6 +5,7 @@ import ParticleAnimation from "react-particle-animation";
 import Header from "./components/header/header";
 import Center from "./components/center/center";
 import Tech from "./components/tech/tech";
+import Contact from "./components/contact/contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       />
       <Center />
       <Tech />
+      <Contact />
     </div>
   );
 }

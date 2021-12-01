@@ -1,8 +1,8 @@
 import React from "react";
 import Typed from "react-typed";
-import "./header.css";
+import "./animationText.css";
 
-function header() {
+export default function AnimationText() {
   return (
     <div className="header-info" id="home">
       <h1>Who am I ?</h1>
@@ -15,5 +15,3 @@ function header() {
     </div>
   );
 }
-
-export default header;

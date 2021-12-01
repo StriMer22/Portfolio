@@ -1,18 +1,18 @@
 export const navLink = [
   {
     name: "HOME",
-    ref: "#home",
+    ref: "/home",
   },
   {
     name: "ABOUT ME",
-    ref: "#about-me",
+    ref: "/about-me",
   },
   {
-    name: "TECHNOLOGIES",
-    ref: "#technologies",
+    name: "PROJECTS",
+    ref: "/projects",
   },
   {
     name: "CONTACT",
-    ref: "#contact",
+    ref: "/contact",
   },
 ];

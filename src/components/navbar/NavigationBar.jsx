@@ -3,18 +3,19 @@ import "./navigationBar.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { navLink } from "../../assets/navLink";
+import { Link } from "react-router-dom";
 
 function createLink() {
   return navLink.map((elem, idx) => {
     return (
-      <Nav.Link key={idx} href={elem.ref}>
+      <Nav.Link key={idx} as={Link} to={elem.ref} eventKey={idx}>
         {elem.name}
       </Nav.Link>
     );
   });
 }
 
-function navigationBar() {
+export default function NavigationBar() {
   return (
     <div>
       <Navbar
@@ -24,7 +25,9 @@ function navigationBar() {
         collapseOnSelect
       >
         <Navbar.Brand style={{ marginLeft: "1rem" }} href="#home">
-          Dmytro Boiko
+          <Link to="/home" style={{ textDecoration: "none", color: "white" }}>
+            Dmytro Boiko
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
@@ -42,5 +45,3 @@ function navigationBar() {
     </div>
   );
 }
-
-export default navigationBar;

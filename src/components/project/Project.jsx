@@ -1,10 +1,9 @@
 import React from 'react'
 
-export default function contact() {
+export default function project() {
     return (
         <div>
-            SLAVES
+            do anal
         </div>
     )
 }
-

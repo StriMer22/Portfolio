@@ -29,8 +29,18 @@
   border-bottom: 5px solid var(--nav-color);
 }
 
-.tech_ico {
-  height: 70px;
+.tech_icon {
+  width: 65px;
+  height: 65px;
+}
+
+.tech_icon_container {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
   background-color: var(--light-color);
   border-radius: 50%;
+  overflow: hidden;
+  align-items: center;
 }

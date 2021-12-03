@@ -1,7 +1,7 @@
 import React from 'react';
 import './about-me.css';
 import Photo from '../../assets/About-me.png';
-import Tech from '../tech/Tech';
+import Tech from '../tech/tech';
 import Footer from '../footer/Footer';
 
 export default function AboutMe() {

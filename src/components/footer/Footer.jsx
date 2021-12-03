@@ -1,10 +1,14 @@
 import React from 'react';
-import "./footer.css";
+import './footer.css';
 import { navLink } from '../../assets/navLink';
 import { Link } from 'react-router-dom';
 
 function Mailto({ email, ...props }) {
-  return <a href={`mailto: ${email}`}>{props.children}</a>;
+  return (
+    <a href={`mailto: ${email}`} rel='noopener noreferrer' target='_blank'>
+      {props.children}
+    </a>
+  );
 }
 
 function createLinks() {
@@ -26,10 +30,20 @@ export default function Footer() {
               <p style={{ textTransform: 'lowercase' }}>homen932@gmail.com</p>
             </Mailto>
             <p>
-              <a href='https://github.com/StriMer22'>github</a>
+              <a
+                href='https://github.com/StriMer22'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                github
+              </a>
             </p>
             <p>
-              <a href='https://www.linkedin.com/in/dmytro-boiko-90b3511b4/'>
+              <a
+                href='https://www.linkedin.com/in/dmytro-boiko-90b3511b4/'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
                 linkedin
               </a>
             </p>

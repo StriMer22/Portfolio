@@ -1,0 +1,115 @@
+form {
+  width: 100%;
+}
+label {
+  font-size: 1.5rem;
+}
+input,
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1.2rem;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  color: var(--font-color);
+  background-color: var(--nav-color);
+}
+
+textarea {
+  min-height: 250px;
+  resize: vertical;
+}
+button[type="submit"] {
+  background-color: var(--light-color);
+  color: var(--nav-color);
+  font-size: 1.5rem;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  transition: 1s;
+  background-color: var(--font-color-hover);
+}
+.contact-form {
+  color: var(--nav-color);
+  padding-bottom: 2rem;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-link {
+  background-color: var(--light-color);
+  color: var(--nav-color);
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+a:hover {
+  transition: 1s;
+  background-color: var(--font-color-hover);
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-contact {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  input {
+    display: flex;
+    flex-direction: column;
+    max-width: 60rem;
+  }
+  textarea {
+    display: flex;
+    flex-direction: column;
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  input {
+    max-width: 20rem;
+  }
+  textarea {
+    max-width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  input {
+    max-width: 18rem;
+  }
+  textarea {
+    max-width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  input {
+    max-width: 15rem;
+  }
+  textarea {
+    max-width: 15rem;
+  }
+}

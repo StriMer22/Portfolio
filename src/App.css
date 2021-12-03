@@ -7,6 +7,7 @@
 
 :root {
   --nav-color: rgb(34, 38, 42);
+  --input-color: rgb(10, 3, 3);
   --nav-hover-color: hsl(210, 11%, 45%);
   --nav-border-color: hsl(210, 11%, 45%);
   --light-color: hsl(209, 100%, 92%);

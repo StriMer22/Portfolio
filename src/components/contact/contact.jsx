@@ -3,14 +3,14 @@ import Footer from '../footer/Footer';
 import './contact.css';
 
 export default function Contact() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  // const [name, setName] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [message, setMessage] = useState('');
   return (
     <div style={{ minHeight: '100vh' }}>
       <h1 style={{ padding: '5rem 2rem 2rem 2rem', textAlign: 'center' }}>CONTACT ME</h1>
 
-      <form>
+      <form action="https://formspree.io/f/mjvlbdql" method="POST">
         <div className='contact-form'>
           <label htmlFor='name'>
             Your name
@@ -18,8 +18,8 @@ export default function Contact() {
               type='text'
               id='name'
               name='name'
-              value={name}
-              onChange={e => setName(e.target.value)}
+              // value={name}
+              // onChange={e => setName(e.target.value)}
             ></input>
           </label>
         </div>
@@ -29,9 +29,9 @@ export default function Contact() {
             <input
               type='text'
               id='email'
-              email='email'
-              value={email}
-              onChange={e => setEmail(e.target.value)}
+              name='email'
+              // value={email}
+              // onChange={e => setEmail(e.target.value)}
             ></input>
           </label>
         </div>
@@ -41,9 +41,9 @@ export default function Contact() {
             <textarea
               type='text'
               id='message'
-              message='message'
-              value={message}
-              onChange={e => setMessage(e.target.value)}
+              name='message'
+              // value={message}
+              // onChange={e => setMessage(e.target.value)}
             ></textarea>
           </label>
           <br></br>

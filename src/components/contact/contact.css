@@ -63,7 +63,7 @@ button[type="submit"]:hover {
   cursor: pointer;
 }
 
-a:hover {
+.btn-contact a:hover {
   transition: 1s;
   background-color: var(--font-color-hover);
 }

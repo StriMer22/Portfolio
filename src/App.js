@@ -10,7 +10,7 @@ import ParticleAnimation from "react-particle-animation";
 import Header from "./components/animationText/AnimationText";
 import AboutMe from "./components/about-me/About-me";
 import Project from "./components/project/Project";
-import Contact from "./components/contact/Contact";
+import Contact from "./components/contact/contact";
 
 function App() {
   return (

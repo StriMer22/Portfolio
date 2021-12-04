@@ -99,7 +99,11 @@
 @media only screen and (max-height: 1200px) {
   .container_gear h1 {
     font-size: 3rem;
-    padding-top: 4rem;
+    padding: 1rem 2rem;
+  }
+  svg {
+    height: 65vh;
+    width: 65vw;
   }
 }
 
@@ -109,6 +113,7 @@
     width: 75vw;
     padding-top: 5rem;
   }
+
   .container_project h1 {
     text-align: center;
     font-size: 3rem;
@@ -117,8 +122,8 @@
 
 @media only screen and (max-width: 600px) {
   .container_gear h1 {
-    padding: 3rem 1rem;
-    font-size: 3rem;
+    padding: 1rem 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -133,5 +138,12 @@
   .container_gear h1 {
     padding: 2rem 1rem;
     font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-height: 280px) {
+  .container_gear h1 {
+    padding: 1rem 1rem;
+    font-size: 2rem;
   }
 }

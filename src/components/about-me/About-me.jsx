@@ -18,7 +18,7 @@ export default function AboutMe() {
             science studies. I consider myself to be a determined person that is
             ready to put in as much hard work as needed to achieve success.
             Additionally, I am always up for a new challenge and eager to
-            broaden my knowledge on any given subject
+            broaden my knowledge on any given subject.
           </span>
         </div>
       </div>

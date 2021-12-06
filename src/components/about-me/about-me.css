@@ -54,7 +54,13 @@ img {
     font-size: 1.5rem;
   }
   .about-me_container {
-    gap: 5rem;
+    gap: 5 r;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .about-me_container {
+    gap: 5 r;
   }
 }
 

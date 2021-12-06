@@ -28,6 +28,12 @@
   color: var(--light-color);
 }
 
+@media only screen and (min-height: 1300px) {
+  .contact_container {
+    padding: 3rem;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .contact_links_container {
     gap: 20rem;

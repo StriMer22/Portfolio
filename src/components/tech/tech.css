@@ -44,3 +44,19 @@
   overflow: hidden;
   align-items: center;
 }
+
+@media only screen and (min-height: 1300px) {
+  .tech_card {
+    width: 20rem;
+    height: 20rem;
+  }
+  .tech_icon {
+    width: 90px;
+    height: 90px;
+  }
+
+  .tech_icon_container {
+    width: 150px;
+    height: 150px;
+  }
+}

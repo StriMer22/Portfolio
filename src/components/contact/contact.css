@@ -68,6 +68,26 @@ button[type="submit"]:hover {
   background-color: var(--font-color-hover);
 }
 
+@media only screen and (min-height: 1300px) {
+  label {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-height: 1000px) {
+  label {
+    font-size: 2rem;
+  }
+  button[type="submit"] {
+    font-size: 2rem;
+    padding: 1.5rem 6rem;
+  }
+  .btn-link {
+    font-size: 2rem;
+    padding: 1.5rem 5rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .btn-contact {
     flex-direction: column;
